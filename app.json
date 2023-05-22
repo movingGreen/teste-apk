@@ -18,7 +18,9 @@
       "supportsTablet": true
     },
     "android": {
-      "permissions": [],
+      "permissions": [
+        "ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION", "android.permission.INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
